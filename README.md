@@ -4,11 +4,11 @@ Transform any photo into a professional headshot in seconds using AI-powered bac
 
 ## Features
 
-- ** AI Background Removal**: Automatically removes any background with precision
-- ** Professional Backgrounds**: Clean, corporate-ready backgrounds for any industry
-- ** Smart Enhancement**: Optimizes brightness, contrast, and sharpness automatically
-- ** Instant Results**: Professional photos ready in seconds, not hours
-- ** 100% Private**: All processing happens locally on your device
+- **AI Background Removal**: Automatically removes any background with precision
+- **Professional Backgrounds**: Clean, corporate-ready backgrounds for any industry
+- **Smart Enhancement**: Optimizes brightness, contrast, and sharpness automatically
+- **Instant Results**: Professional photos ready in seconds, not hours
+- **100% Private**: All processing happens locally on your device
 
 ## Quick Start
 
