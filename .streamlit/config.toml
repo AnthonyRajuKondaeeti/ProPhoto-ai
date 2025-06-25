@@ -1,0 +1,83 @@
+[global]
+# If false, will attempt to connect to a Streamlit server on localhost:8501
+# If true, will run the app in "development mode"
+developmentMode = true
+
+[theme]
+# Primary accent color for interactive elements.
+primaryColor = "#2a5298"
+
+# Background color for the main content area.
+backgroundColor = "#FFFFFF"
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#f8f9fa"
+
+# Color used for almost all text.
+textColor = "#000000"
+
+[server]
+# List of folders that should not be watched for changes. This impacts both "Run on Save" and @st.cache.
+# Relative paths will be taken as relative to the current working directory.
+# Example: ['/home/user1/env', 'relative/path/to/folder']
+folderWatchBlacklist = []
+
+# Change the type of file watcher used by Streamlit, or turn it off completely.
+# Allowed values: * "auto" : Streamlit will attempt to use the watchdog module, and fall back to file_watcher=polling if watchdog is not available.
+# * "watchdog" : Force Streamlit to use the watchdog module.
+# * "poll" : Force Streamlit to always use polling.
+# * "none" : Streamlit will not watch files.
+fileWatcherType = "auto"
+
+# Symmetric key used to produce signed cookies. If deploying on multiple replicas, this should be set to the same value across all replicas to ensure they all share the same secret.
+# Default: randomly generated secret key.
+cookieSecret = ""
+
+# If false, will attempt to open a browser window on start.
+headless = false
+
+# Automatically rerun script when the file is modified on disk.
+runOnSave = true
+
+# The address where the server will listen for client and browser connections. Use this if you want to bind the server to a specific address. If set, the server will only be accessible from this address, and not from any aliases (like localhost).
+address = ""
+
+# The port where the server will listen for client and browser connections.
+port = 8501
+
+# The base path for the URL where Streamlit should be reachable from.
+baseUrlPath = ""
+
+# Enables support for Cross-Origin Resource Sharing (CORS) protection, for added security.
+# Due to conflicts between CORS and XSRF, if `server.enableXsrfProtection` is on and `server.enableCORS` is off at the same time, we will prioritize `server.enableXsrfProtection`.
+enableCORS = true
+
+# Enables support for Cross-Site Request Forgery (XSRF) protection, for added security.
+# Due to conflicts between CORS and XSRF, if `server.enableXsrfProtection` is on and `server.enableCORS` is off at the same time, we will prioritize `server.enableXsrfProtection`.
+enableXsrfProtection = true
+
+# Max size, in megabytes, for files uploaded with the file_uploader.
+# Default: 200
+maxUploadSize = 200
+
+# Max size, in megabytes, of messages that can be sent via the WebSocket connection.
+# Default: 200
+maxMessageSize = 200
+
+# Enables support for websocket compression.
+# Default: false
+enableWebsocketCompression = false
+
+[browser]
+# Internet address where users should point their browsers in order to connect to the app. Can be IP address or DNS name and path.
+# This is used to: - Set the correct URL for CORS and XSRF protection purposes. - Show the URL on the terminal - Open the browser
+# Default: 'localhost'
+serverAddress = "localhost"
+
+# Whether to send usage statistics to Streamlit.
+gatherUsageStats = true
+
+# Port where users should point their browsers in order to connect to the app.
+# This is used to: - Set the correct URL for CORS and XSRF protection purposes. - Show the URL on the terminal - Open the browser
+# Default: whatever value is set in server.port.
+serverPort = 8501
