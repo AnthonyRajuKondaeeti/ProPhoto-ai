@@ -2,15 +2,15 @@
 
 Transform any photo into a professional headshot in seconds using AI-powered background removal and enhancement.
 
-## ✨ Features
+## Features
 
-- **🤖 AI Background Removal**: Automatically removes any background with precision
-- **🎨 Professional Backgrounds**: Clean, corporate-ready backgrounds for any industry
-- **✨ Smart Enhancement**: Optimizes brightness, contrast, and sharpness automatically
-- **📱 Instant Results**: Professional photos ready in seconds, not hours
-- **🔒 100% Private**: All processing happens locally on your device
+- ** AI Background Removal**: Automatically removes any background with precision
+- ** Professional Backgrounds**: Clean, corporate-ready backgrounds for any industry
+- ** Smart Enhancement**: Optimizes brightness, contrast, and sharpness automatically
+- ** Instant Results**: Professional photos ready in seconds, not hours
+- ** 100% Private**: All processing happens locally on your device
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -47,7 +47,7 @@ Transform any photo into a professional headshot in seconds using AI-powered bac
 
 5. **Open your browser** and navigate to `http://localhost:8501`
 
-## 🎯 Usage
+## Usage
 
 1. **Upload a photo** - Choose a clear photo with good lighting for best results
 2. **Select background** - Choose from professional presets or use a custom color
@@ -55,7 +55,7 @@ Transform any photo into a professional headshot in seconds using AI-powered bac
 4. **Process** - Click "Create Professional Photo" and wait a few seconds
 5. **Download** - Save your professional headshot in JPEG or PNG format
 
-## 🎨 Background Options
+## Background Options
 
 - **Clean White**: Perfect for most professional contexts
 - **Corporate Gray**: Subtle and professional
@@ -63,14 +63,14 @@ Transform any photo into a professional headshot in seconds using AI-powered bac
 - **Executive Black**: Bold and sophisticated
 - **Custom**: Choose any color you prefer
 
-## 🔧 Enhancement Features
+## Enhancement Features
 
 - **Brightness**: Adjust overall image brightness
 - **Contrast**: Enhance image contrast for better definition
 - **Sharpness**: Improve image clarity and detail
 - **Color Saturation**: Adjust color intensity
 
-## 📋 Requirements
+## Requirements
 
 - streamlit>=1.28.0
 - Pillow>=10.0.0
@@ -78,7 +78,7 @@ Transform any photo into a professional headshot in seconds using AI-powered bac
 - numpy>=1.24.0
 - opencv-python-headless>=4.8.0
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -88,17 +88,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Streamlit](https://streamlit.io/)
 - Background removal powered by [rembg](https://github.com/danielgatis/rembg)
 - Image processing with [Pillow](https://python-pillow.org/)
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/prophoto-ai/issues) on GitHub.
 
